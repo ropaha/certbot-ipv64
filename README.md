@@ -9,7 +9,7 @@ certbot certonly \
    --preferred-challenges dns \
    -d yourdomain.com
 ```
-## sample output on creation
+## Sample output on creation
 ```
 certbot certonly \
    --manual \
@@ -37,7 +37,7 @@ If you like Certbot, please consider supporting our work by:
  * Donating to EFF:                    https://eff.org/donate-le
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ```
-## sample output on renew simulation
+## Sample output on renew simulation
 ```
 certbot renew --cert-name yourdomain.com --dry-run
 Saving debug log to /var/log/letsencrypt/letsencrypt.log
