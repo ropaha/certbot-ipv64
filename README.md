@@ -1,6 +1,6 @@
 # certbot-ipv64
 Creating letsencrypt certificates with certbot using dynDNS service https://ipv64.net 
-## Usage
+## Usage example
 ```
 certbot certonly \ 
    --manual \
