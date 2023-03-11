@@ -7,3 +7,4 @@ TYPE="TXT"
 CONTENT=$CERTBOT_VALIDATION
 
 curl -s -X DELETE "https://ipv64.net/api.php" -H "Authorization: Bearer $APIKEY" -d "del_record=$DOMAIN&praefix=$PRAEFIX&type=$TYPE&content=$CONTENT"
+sleep 15
