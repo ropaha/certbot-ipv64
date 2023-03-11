@@ -7,4 +7,4 @@ TYPE="TXT"
 CONTENT=$CERTBOT_VALIDATION
 
 curl -s -X POST "https://ipv64.net/api.php" -H "Authorization: Bearer $APIKEY" -d "add_record=$DOMAIN&praefix=$PRAEFIX&type=$TYPE&content=$CONTENT"
-sleep 20
+sleep 15
